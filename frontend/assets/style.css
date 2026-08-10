@@ -1,0 +1,87 @@
+/* ---- Global look and feel ---- */
+html, body, [class*="css"] {
+    font-family: 'Segoe UI', 'Inter', system-ui, sans-serif;
+}
+
+.main {
+    background-color: #f7f8fa;
+}
+
+/* ---- Hero / header banner ---- */
+.hero-banner {
+    background: linear-gradient(135deg, #1e3a5f 0%, #2c5f8a 50%, #3a7ca5 100%);
+    padding: 2.2rem 2rem;
+    border-radius: 16px;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+.hero-banner h1 {
+    font-size: 1.9rem;
+    margin-bottom: 0.3rem;
+    color: white;
+}
+.hero-banner p {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin: 0;
+}
+
+/* ---- Cards ---- */
+.info-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.2rem 1.4rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    border: 1px solid #eaecef;
+    margin-bottom: 0.8rem;
+}
+
+.badge-high {
+    background-color: #e3f7e8;
+    color: #1a7f37;
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+.badge-low {
+    background-color: #fff4e5;
+    color: #b25e00;
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+.badge-neutral {
+    background-color: #eef1f5;
+    color: #445;
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+/* ---- Drag and drop uploader styling ---- */
+[data-testid="stFileUploaderDropzone"] {
+    border: 2px dashed #3a7ca5 !important;
+    border-radius: 14px !important;
+    background-color: #f0f6fb !important;
+    padding: 1.2rem !important;
+}
+[data-testid="stFileUploaderDropzone"]:hover {
+    background-color: #e4f0f9 !important;
+}
+
+/* ---- Buttons ---- */
+.stButton > button {
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* ---- Sidebar ---- */
+[data-testid="stSidebar"] {
+    background-color: #101f30;
+}
+[data-testid="stSidebar"] * {
+    color: #f0f3f7 !important;
+}

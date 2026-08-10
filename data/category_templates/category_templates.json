@@ -1,0 +1,23 @@
+{
+  "Lighting": {
+    "expected_attributes": ["power_watts", "voltage", "lumens", "color_temperature"]
+  },
+  "Personal Care": {
+    "expected_attributes": ["volume_ml", "ingredients", "usage"]
+  },
+  "Hardware": {
+    "expected_attributes": ["length_mm", "diameter_mm", "material", "thread_type"]
+  },
+  "Pumps": {
+    "expected_attributes": ["flow_rate_lpm", "pressure_bar", "power_kw", "material"]
+  },
+  "Motors": {
+    "expected_attributes": ["power_hp_kw", "rpm", "voltage", "phase"]
+  },
+  "Electronics": {
+    "expected_attributes": ["voltage", "wattage", "battery_capacity", "connectivity"]
+  },
+  "General": {
+    "expected_attributes": ["dimensions", "weight", "material", "color"]
+  }
+}
