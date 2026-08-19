@@ -27,7 +27,7 @@ from retrieval import build_reference_context
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-MODEL_NAME = "gemini-2.5-flash"  # free-tier friendly, multimodal
+MODEL_NAME = "gemini-3.6-flash"  # free-tier friendly, multimodal
 
 
 def run_pipeline(product_name: str, initial_data: dict, sources: list, extra_context: str = ""):
